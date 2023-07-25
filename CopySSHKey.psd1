@@ -12,7 +12,7 @@
   RootModule        = '.\CopySSHKey.psm1'
 
   # Version number of this module.
-  ModuleVersion     = '1.0'
+  ModuleVersion     = '1.1'
 
   # Supported PSEditions
   # CompatiblePSEditions = @()
@@ -30,7 +30,7 @@
   Copyright         = '(c) SeryiBaran. All rights reserved.'
 
   # Description of the functionality provided by this module
-  Description       = 'Tiny PowerShell module for check for new NodeJS versions.'
+  Description       = 'Tiny PowerShell module for copy public SSH key to remote server (`ssh-copy-id` analog for Windows).'
 
   # Minimum version of the PowerShell engine required by this module
   PowerShellVersion = '5.1'
