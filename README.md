@@ -23,7 +23,7 @@ NAME
     Copy-SSHKey
 
 SYNOPSIS
-    Checks new NodeJS versions.
+    Copies public SSH key to remote server.
 
 
 SYNTAX

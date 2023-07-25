@@ -2,7 +2,7 @@ Import-Module Pansies
 
 <#
  .Synopsis
-  Checks new NodeJS versions.
+  Copies public SSH key to remote server.
 
  .Parameter RemoteHost
   Remote host and user
