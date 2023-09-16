@@ -34,7 +34,8 @@ function Copy-SSHKey {
   )
 
   try {
-    Get-Content $KeyFile | ssh $RemoteHost -p $RemotePort "cat >> .ssh/authorized_keys"
+#    ssh $RemoteHost -p $RemotePort "mkdir ~/.ssh"
+    Get-Content $KeyFile | ssh $RemoteHost -p $RemotePort "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
   }
   catch {
     Write-Error "Oh, error occurred:"
